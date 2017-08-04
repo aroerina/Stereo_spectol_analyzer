@@ -1,0 +1,694 @@
+	.file	"flowctrl3.c"
+	.text
+	.global	wait_sw
+	.type	wait_sw, @function
+wait_sw:
+	# pretend_size = 0, callee_size = 0
+	# locals_size = 0, args_size = 0
+	# total_size = 0, reg_save_mask = 0
+#APP
+# 54 "flowctrl3.c" 1
+	import r0,0x00	
+	testi	r0,0x04	
+	bz		-2		
+	
+# 0 "" 2
+#NO_APP
+	ret
+	.size	wait_sw, .-wait_sw
+	.global	__ashlqi3
+	.global	__ashlhi3
+	.global	__lshrqi3
+	.global	main
+	.type	main, @function
+main:
+	# pretend_size = 0, callee_size = 15
+	# locals_size = 42, args_size = 0
+	# total_size = 57, reg_save_mask = 0xfff4c00
+	addi	r8,_lo(-57)
+	addic	r9,_hi(-57)
+	movi	r12,42
+	movi	r13,0
+	add	r12,r8
+	addc	r13,r9
+	sspi	r10,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r11,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r14,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r16,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r17,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r18,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r19,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r20,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r21,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r22,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r23,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r24,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r25,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r26,r12
+	addi	r12,_lo(1)
+	addic	r13,_hi(1)
+	sspi	r27,r12
+	movi	r2,15
+	mov	r0,r8
+	mov	r1,r9
+	addi	r0,_lo(39)
+	addic	r1,_hi(39)
+	mov	r13,r1	# R13 update
+	sspi	r2,r0
+	mov	r0,r8
+	mov	r1,r9
+	addi	r0,_lo(40)
+	addic	r1,_hi(40)
+	mov	r13,r1	# R13 update
+	sspi	r2,r0
+	movi	r2,0
+	mov	r0,r8
+	mov	r1,r9
+	addi	r0,_lo(41)
+	addic	r1,_hi(41)
+	mov	r13,r1	# R13 update
+	sspi	r2,r0
+	movi	r0,48
+	movi	r13,_hi(24)
+	export	r0,_lo(24)
+	movi	r13,_hi(24)
+	export	r2,_lo(24)
+	movi	r13,_hi(20)
+	export	r2,_lo(20)
+	mov	r10,r8
+	mov	r11,r9
+	addi	r10,_lo(20)
+	addic	r11,_hi(20)
+	movi	r4,_hi(C.0.1255)
+	movi	r3,_lo(C.0.1255)
+	mov	r0,r10
+	mov	r1,r11
+	mov	r2,r3
+	mov	r3,r4
+	movi	r4,16
+	movi	r5,0
+	call	memcpy
+	mov	r16,r10
+	mov	r17,r11
+	mov	r4,r8
+	mov	r5,r9
+	addi	r4,_lo(36)
+	addic	r5,_hi(36)
+.L4:
+	mov	r13,r17	# R13 update
+	lspi	r0,r16
+	movi	r13,_hi(0)
+	export	r0,_lo(0)
+	addi	r16,_lo(1)
+	addic	r17,_hi(1)
+	mov	r0,r16
+	mov	r1,r17
+	mov	r2,r4
+	mov	r3,r5
+	call	__ucmphi2
+	bnz	.L4	# ne
+	mov	r1,r8
+	mov	r2,r9
+	addi	r1,_lo(36)
+	addic	r2,_hi(36)
+	movi	r0,0
+	mov	r13,r2	# R13 update
+	sspi	r0,r1
+	mov	r5,r8
+	mov	r6,r9
+	addi	r5,_lo(37)
+	addic	r6,_hi(37)
+	mov	r13,r6	# R13 update
+	sspi	r0,r5
+	mov	r3,r8
+	mov	r4,r9
+	addi	r3,_lo(38)
+	addic	r4,_hi(38)
+	movi	r0,15
+	mov	r13,r4	# R13 update
+	sspi	r0,r3
+	movi	r11,0
+	movi	r7,1
+	movi	r16,0
+	movi	r14,1
+	mov	r18,r1
+	mov	r19,r2
+	mov	r26,r5
+	mov	r27,r6
+	mov	r24,r3
+	mov	r25,r4
+	movi	r17,15
+.L40:
+	movi	r13,_hi(0)
+	import	r4,_lo(0)
+	movi	r2,6
+	movi	r3,0
+	add	r2,r8
+	addc	r3,r9
+	mov	r13,r3	# R13 update
+	sspi	r4,r2
+	movi	r2,0
+	movi	r0,7
+	movi	r1,0
+	add	r0,r8
+	addc	r1,r9
+	mov	r13,r1	# R13 update
+	sspi	r2,r0
+	movi	r4,6
+	movi	r5,0
+	add	r4,r8
+	addc	r5,r9
+	mov	r2,r4
+	mov	r3,r5
+	mov	r13,r3	# R13 update
+	lspi	r0,r2
+	testi	r0,1
+	bz	.L40	# eq
+	movi	r4,0
+	addi	r8,_lo(1)
+	addic	r9,_hi(1)
+	subi	r8,_lo(1)
+	subic	r9,_hi(1)
+	movi	r0,16
+	movi	r1,0
+	add	r0,r8
+	addc	r1,r9
+	mov	r13,r1	# R13 update
+	sspi	r26,r0
+	addi	r0,_lo(1)
+	addic	r1,_hi(1)
+	mov	r13,r1	# R13 update
+	sspi	r27,r0
+	movi	r1,18
+	movi	r2,0
+	add	r1,r8
+	addc	r2,r9
+	mov	r13,r2	# R13 update
+	sspi	r24,r1
+	addi	r1,_lo(1)
+	addic	r2,_hi(1)
+	mov	r13,r2	# R13 update
+	sspi	r25,r1
+	mov	r25,r18
+	mov	r26,r19
+	mov	r19,r11
+.L13:
+	movi	r0,48
+	movi	r1,0
+	mov	r13,r1
+	exporti	r16,r0
+	movi	r1,44
+	movi	r2,0
+	mov	r13,r2
+	exporti	r14,r1
+.L6:
+	movi	r13,_hi(0)
+	import	r5,_lo(0)
+	movi	r6,0
+	testi	r5,2
+	bz	.L6	# eq
+#APP
+# 92 "flowctrl3.c" 1
+	export r0,0x02
+# 0 "" 2
+#NO_APP
+.L7:
+	movi	r13,_hi(0)
+	import	r2,_lo(0)
+	mov	r10,r2
+	movi	r3,0
+	mov	r0,r2
+	mov	r1,r3
+	andi	r0,_lo(8)
+	andi	r1,_hi(8)
+	movi	r2,0
+	call	__ucmphi2
+	bz	.L7	# eq
+#APP
+# 96 "flowctrl3.c" 1
+	export r0,0x02
+# 0 "" 2
+#NO_APP
+	movi	r0,44
+	movi	r1,0
+	mov	r13,r1
+	exporti	r16,r0
+	mov	r13,r9	# R13 update
+	sspi	r25,r8
+	addi	r8,_lo(1)
+	addic	r9,_hi(1)
+	mov	r13,r9	# R13 update
+	sspi	r26,r8
+	subi	r8,_lo(1)
+	subic	r9,_hi(1)
+	mov	r24,r5
+	mov	r25,r6
+	mov	r26,r10
+	mov	r27,r3
+	mov	r11,r7
+.L8:
+	movi	r13,_hi(0)
+	import	r6,_lo(0)
+	movi	r7,0
+	testi	r6,8
+	bz	.L8	# eq
+	movi	r2,10
+	movi	r3,0
+	add	r2,r8
+	addc	r3,r9
+	mov	r13,r3	# R13 update
+	sspi	r6,r2
+	addi	r2,_lo(1)
+	addic	r3,_hi(1)
+	mov	r13,r3	# R13 update
+	sspi	r7,r2
+	mov	r5,r24
+	mov	r6,r25
+	mov	r7,r11
+	mov	r10,r26
+	mov	r11,r27
+	mov	r13,r9	# R13 update
+	lspi	r25,r8
+	addi	r8,_lo(1)
+	addic	r9,_hi(1)
+	mov	r13,r9	# R13 update
+	lspi	r26,r8
+	subi	r8,_lo(1)
+	subic	r9,_hi(1)
+	movi	r3,2
+.L11:
+	movi	r13,_hi(2)
+	import	r2,_lo(2)
+#APP
+# 104 "flowctrl3.c" 1
+	export r0,0x02
+# 0 "" 2
+#NO_APP
+	b	.L9
+.L10:
+#APP
+# 54 "flowctrl3.c" 1
+	import r0,0x00	
+	testi	r0,0x04	
+	bz		-2		
+	
+# 0 "" 2
+# 107 "flowctrl3.c" 1
+	export r0,0x01
+# 0 "" 2
+#NO_APP
+	addi	r2,_lo(-1)
+.L9:
+	cmpi	r2,0
+	bnz	.L10	# ne
+	addi	r3,_lo(1)
+	cmpi	r3,61
+	bnz	.L11	# ne
+#APP
+# 54 "flowctrl3.c" 1
+	import r0,0x00	
+	testi	r0,0x04	
+	bz		-2		
+	
+# 0 "" 2
+# 111 "flowctrl3.c" 1
+	export r0,0x01
+# 0 "" 2
+#NO_APP
+	movi	r0,44
+	movi	r1,0
+	mov	r13,r1
+	exporti	r14,r0
+	movi	r2,0
+.L12:
+#APP
+# 115 "flowctrl3.c" 1
+	import r0,0x00	
+	testi	r0,0x04	
+	bz		-2		
+	export r0,0x03	
+	
+# 0 "" 2
+#NO_APP
+	addi	r2,_lo(1)
+	cmpi	r2,-11
+	bnz	.L12	# ne
+	addi	r4,_lo(1)
+	cmpi	r4,2
+	bnz	.L13	# ne
+	mov	r13,r9	# R13 update
+	sspi	r5,r8
+	addi	r8,_lo(1)
+	addic	r9,_hi(1)
+	mov	r13,r9	# R13 update
+	sspi	r6,r8
+	subi	r8,_lo(1)
+	subic	r9,_hi(1)
+	movi	r1,8
+	movi	r2,0
+	add	r1,r8
+	addc	r2,r9
+	mov	r13,r2	# R13 update
+	sspi	r10,r1
+	addi	r1,_lo(1)
+	addic	r2,_hi(1)
+	mov	r13,r2	# R13 update
+	sspi	r11,r1
+	mov	r11,r19
+	mov	r18,r25
+	mov	r19,r26
+	movi	r2,16
+	movi	r3,0
+	add	r2,r8
+	addc	r3,r9
+	mov	r13,r3	# R13 update
+	lspi	r26,r2
+	addi	r2,_lo(1)
+	addic	r3,_hi(1)
+	mov	r13,r3	# R13 update
+	lspi	r27,r2
+	movi	r3,18
+	movi	r4,0
+	add	r3,r8
+	addc	r4,r9
+	mov	r13,r4	# R13 update
+	lspi	r24,r3
+	addi	r3,_lo(1)
+	addic	r4,_hi(1)
+	mov	r13,r4	# R13 update
+	lspi	r25,r3
+#APP
+# 54 "flowctrl3.c" 1
+	import r0,0x00	
+	testi	r0,0x04	
+	bz		-2		
+	
+# 0 "" 2
+#NO_APP
+	movi	r0,-1
+	movi	r4,40
+	movi	r5,0
+	mov	r13,r5
+	exporti	r0,r4
+	movi	r13,_hi(3)
+	import	r20,_lo(3)
+	movi	r21,0
+	testi	r20,1
+	bz	.L14	# eq
+	cmpi	r11,0
+	bz	.L14	# eq
+	addi	r11,_lo(-1)
+	b	.L15
+.L14:
+	testi	r20,2
+	bz	.L16	# eq
+	cmpi	r11,1
+	bc	.+3	# |
+	bnz	.L16	# |gtu
+	addi	r11,_lo(1)
+	b	.L15
+.L16:
+	mov	r0,r20
+	mov	r1,r21
+	andi	r0,_lo(4)
+	andi	r1,_hi(4)
+	movi	r2,0
+	movi	r3,0
+	call	__ucmphi2
+	bz	.L17	# eq
+	movi	r1,4
+	movi	r2,0
+	add	r1,r8
+	addc	r2,r9
+	mov	r13,r2	# R13 update
+	sspi	r11,r1
+	movi	r4,0
+	movi	r2,5
+	movi	r3,0
+	add	r2,r8
+	addc	r3,r9
+	mov	r13,r3	# R13 update
+	sspi	r4,r2
+	movi	r0,4
+	movi	r1,0
+	add	r0,r8
+	addc	r1,r9
+	mov	r4,r0
+	mov	r5,r1
+	mov	r2,r11
+	addi	r4,_lo(1)
+	addic	r5,_hi(1)
+	mov	r13,r5	# R13 update
+	lspi	r3,r4
+	add	r2,r18
+	addc	r3,r19
+	mov	r13,r3	# R13 update
+	lspi	r4,r2
+	cmpi	r4,14
+	bc	.+3	# |
+	bnz	.L18	# |gtu
+	mov	r1,r4
+	addi	r1,_lo(1)
+	b	.L41
+.L18:
+	mov	r13,r3	# R13 update
+	sspi	r16,r2
+	b	.L15
+.L17:
+	mov	r0,r20
+	mov	r1,r21
+	andi	r0,_lo(8)
+	andi	r1,_hi(8)
+	call	__ucmphi2
+	bz	.L19	# eq
+	movi	r0,2
+	movi	r1,0
+	add	r0,r8
+	addc	r1,r9
+	mov	r13,r1	# R13 update
+	sspi	r11,r0
+	movi	r3,0
+	movi	r1,3
+	movi	r2,0
+	add	r1,r8
+	addc	r2,r9
+	mov	r13,r2	# R13 update
+	sspi	r3,r1
+	movi	r4,2
+	movi	r5,0
+	add	r4,r8
+	addc	r5,r9
+	mov	r0,r4
+	mov	r1,r5
+	mov	r2,r11
+	addi	r0,_lo(1)
+	addic	r1,_hi(1)
+	mov	r13,r1	# R13 update
+	lspi	r3,r0
+	add	r2,r18
+	addc	r3,r19
+	mov	r13,r3	# R13 update
+	lspi	r4,r2
+	cmpi	r4,0
+	bz	.L20	# eq
+	mov	r1,r4
+	addi	r1,_lo(-1)
+.L41:
+	mov	r13,r3	# R13 update
+	sspi	r1,r2
+	b	.L15
+.L20:
+	mov	r13,r3	# R13 update
+	sspi	r17,r2
+	b	.L15
+.L19:
+	mov	r0,r20
+	mov	r1,r21
+	andi	r0,_lo(16)
+	andi	r1,_hi(16)
+	call	__ucmphi2
+	bz	.L15	# eq
+	mov	r0,r7
+	movi	r1,0
+	cmp	r0,r1
+	bz	.L21	# eq
+	mov	r13,r19	# R13 update
+	lspi	r2,r18
+	movi	r13,_hi(24)
+	export	r2,_lo(24)
+	mov	r13,r27	# R13 update
+	lspi	r0,r26
+	movi	r2,4
+	call	__ashlhi3
+	mov	r13,r25	# R13 update
+	lspi	r1,r24
+	or	r1,r0
+	movi	r13,_hi(24)
+	export	r1,_lo(24)
+	movi	r13,_hi(24)
+	export	r16,_lo(24)
+	movi	r13,_hi(24)
+	export	r14,_lo(24)
+	movi	r13,_hi(20)
+	export	r16,_lo(20)
+	movi	r7,0
+	b	.L15
+.L21:
+	movi	r13,_hi(24)
+	export	r16,_lo(24)
+	movi	r1,2
+	movi	r13,_hi(24)
+	export	r1,_lo(24)
+	movi	r13,_hi(20)
+	export	r16,_lo(20)
+.L22:
+	movi	r13,_hi(0)
+	import	r4,_lo(0)
+	movi	r5,0
+	testi	r4,32
+	bz	.L22	# eq
+	movi	r0,12
+	movi	r1,0
+	add	r0,r8
+	addc	r1,r9
+	mov	r13,r1	# R13 update
+	sspi	r4,r0
+	addi	r0,_lo(1)
+	addic	r1,_hi(1)
+	mov	r13,r1	# R13 update
+	sspi	r5,r0
+	movi	r13,_hi(4)
+	import	r1,_lo(4)
+	mov	r13,r19	# R13 update
+	sspi	r1,r18
+	movi	r13,_hi(5)
+	import	r10,_lo(5)
+	mov	r0,r10
+	movi	r1,4
+	call	__lshrqi3
+	mov	r13,r27	# R13 update
+	sspi	r0,r26
+	mov	r1,r10
+	andi	r1,_lo(15)
+	mov	r13,r25	# R13 update
+	sspi	r1,r24
+	movi	r7,1
+.L15:
+	movi	r1,8
+	movi	r13,_hi(12)
+	export	r1,_lo(12)
+	movi	r22,0
+	movi	r23,0
+	movi	r4,4
+.L27:
+	cmp	r11,r22
+	bnz	.L23	# ne
+	movi	r13,_hi(16)
+	export	r16,_lo(16)
+	b	.L24
+.L23:
+	movi	r13,_hi(16)
+	export	r14,_lo(16)
+.L24:
+	movi	r13,_hi(8)
+	export	r4,_lo(8)
+	mov	r1,r18
+	mov	r2,r19
+	add	r1,r22
+	addc	r2,r23
+	mov	r13,r2	# R13 update
+	lspi	r1,r1
+	movi	r13,_hi(4)
+	export	r1,_lo(4)
+	movi	r2,32
+	movi	r3,0
+	mov	r13,r3
+	exporti	r1,r2
+	movi	r1,39
+	movi	r2,0
+	add	r1,r8
+	addc	r2,r9
+	add	r1,r22
+	addc	r2,r23
+	mov	r13,r2	# R13 update
+	lspi	r1,r1
+	movi	r2,36
+	movi	r3,0
+	mov	r13,r3
+	exporti	r1,r2
+.L25:
+	movi	r13,_hi(0)
+	import	r5,_lo(0)
+	movi	r6,0
+	testi	r5,16
+	bz	.L25	# eq
+	addi	r22,_lo(1)
+	addic	r23,_hi(1)
+	cmpi	r4,36
+	bz	.L26	# eq
+	addi	r4,_lo(16)
+	b	.L27
+.L26:
+	movi	r3,14
+	movi	r4,0
+	add	r3,r8
+	addc	r4,r9
+	mov	r13,r4	# R13 update
+	sspi	r5,r3
+	addi	r3,_lo(1)
+	addic	r4,_hi(1)
+	mov	r13,r4	# R13 update
+	sspi	r6,r3
+	movi	r4,40
+	movi	r5,0
+	mov	r13,r5
+	exporti	r16,r4
+	b	.L40
+	.size	main, .-main
+	.section	.rodata
+	.type	C.0.1255, @object
+	.size	C.0.1255, 16
+C.0.1255:
+	.byte	10
+	.byte	20
+	.byte	30
+	.byte	40
+	.byte	10
+	.byte	20
+	.byte	30
+	.byte	40
+	.byte	10
+	.byte	20
+	.byte	30
+	.byte	40
+	.byte	10
+	.byte	20
+	.byte	30
+	.byte	40
+	.ident	"GCC: (GNU) 4.4.3"

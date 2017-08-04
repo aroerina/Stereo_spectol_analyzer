@@ -1,0 +1,291 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 2012/07/03 22:29:14
+
+#コンポーネント ( リファレンス順 )
+| C1         6.3V 10u    
+| C2         0.1u        
+| C3         6.3V 470u   
+| C4         4V 220u     
+| C5         0.1u        
+| C6         6.3V 10u    
+| C7         25V 33u     
+| C8         0.1u        
+| C9         0.1u        
+| C10        0.1u        
+| C11        16V 47u     
+| C12        10V 22u     
+| C13        0.1u        
+| C14        0.01u       
+| C15        0.01u       
+| C16        0.1u        
+| C17        0.1u        
+| C18        10V 22u     
+| C19        0.1u        
+| C20        0.01u       
+| C21        0.1u        
+| C22        16V 47u     
+| C23        0.1u        
+| C24        0.1u        
+| C25        0.1u        
+| C26        0.1u        
+| C27        0.1u        
+| C28        0.1u        
+| C29        0.1u        
+| C30        0.1u        
+| C31        0.1u        
+| C32        0.1u        
+| C33        0.1u        
+| C34        0.1u        
+| C35        0.1u        
+| C36        0.1u        
+| C37        0.1u        
+| C38        0.1u        
+| C39        0.1u        
+| C40        0.1u        
+| C41        0.1u        
+| C42        0.1u        
+| C43        0.1u        
+| C44        0.1u        
+| C45        0.1u        
+| C46        0.01u       
+| C47        22n 5%      
+| C48        0.1u        
+| C49        0.1u        
+| C50        1n 5%       
+| C51        16V 1u Film 
+| C52        16V 1u Film 
+| C53        0.1u        
+| C54        0.1u        
+| C55        0.1u        
+| C56        6.3V 10u    
+| C57        0.1u        
+| C58        0.1u        
+| C59        0.1u        
+| C60        0.1u        
+| C61        0.1u        
+| C62        0.1u        
+| C63        0.1u        
+| C64        6.3V 22u    
+| C65        0.1u        
+| C66        6.3V 22u    
+| C67        0.1u        
+| C68        0.1u        
+| C69        0.1u        
+| C70        0.1u        
+| C71        0.1u        
+| C72        0.1u        
+| C73        0.1u        
+| C74        47p         
+| C75        47p         
+| C76        0.1u        
+| C77        0.1u        
+| C78        0.1u        
+| D1         BAT54S      
+| D2         SS2040      
+| D3         BAT54S      
+| H1         HOLE        
+| H2         HOLE        
+| H3         HOLE        
+| H4         HOLE        
+| J1         DC5V        
+| J2         S/PDIF IN   
+| J3         S/PDIF THRU 
+| J4         LINE IN     
+| J5         LINE THRU   
+| J6         LCD R       
+| J7         LCD L       
+| L1         BRL3225T4R7M
+| L2         330@100MHz  
+| L3         330@100MHz  
+| L4         330@100MHz  
+| P1         PWRINV1     
+| P2         AVRISP      
+| P3         PWRINV2     
+| P4         JTAG        
+| P5         KB_PWR      
+| P6         KB          
+| Q1         FDS4935     
+| Q2         PDTC123J    
+| R1         10k         
+| R2         300k        
+| R3         47k         
+| R4         1M          
+| R5         75          
+| R6         200         
+| R7         200         
+| R8         100         
+| R9         47k         
+| R10        3k 1%       
+| R11        33k         
+| R12        1M          
+| R13        10k         
+| R14        33k         
+| R15        1M          
+| R16        10k         
+| R17        1k          
+| RP1        47k         
+| TX1        22.579MHz   
+| TX2        16MHz       
+| U1         NCP585      
+| U2         NJM2845-DL33
+| U3         ATTINY13-SS 
+| U4         NJM2865-33  
+| U5         TAR5SB50    
+| U6         LFXP2-8E-TN144
+| U7         SC4503      
+| U8         79L05       
+| U9         CY7C1041CV33
+| U10        TC7WU04     
+| U11        LM1972      
+| U12        AD8656      
+| U13        PCM1802     
+| U14        AT93C6      
+| U15        CS8416      
+| VR1        TC33 10k    
+| VR2        TC33 10k    
+#コンポーネント終了
+
+#Cmp ( order = Value )
+| 0.01u        C14       
+| 0.01u        C15       
+| 0.01u        C20       
+| 0.01u        C46       
+| 0.1u         C2        
+| 0.1u         C5        
+| 0.1u         C8        
+| 0.1u         C9        
+| 0.1u         C10       
+| 0.1u         C13       
+| 0.1u         C16       
+| 0.1u         C17       
+| 0.1u         C19       
+| 0.1u         C21       
+| 0.1u         C23       
+| 0.1u         C24       
+| 0.1u         C25       
+| 0.1u         C26       
+| 0.1u         C27       
+| 0.1u         C28       
+| 0.1u         C29       
+| 0.1u         C30       
+| 0.1u         C31       
+| 0.1u         C32       
+| 0.1u         C33       
+| 0.1u         C34       
+| 0.1u         C35       
+| 0.1u         C36       
+| 0.1u         C37       
+| 0.1u         C38       
+| 0.1u         C39       
+| 0.1u         C40       
+| 0.1u         C41       
+| 0.1u         C42       
+| 0.1u         C43       
+| 0.1u         C44       
+| 0.1u         C45       
+| 0.1u         C48       
+| 0.1u         C49       
+| 0.1u         C53       
+| 0.1u         C54       
+| 0.1u         C55       
+| 0.1u         C57       
+| 0.1u         C58       
+| 0.1u         C59       
+| 0.1u         C60       
+| 0.1u         C61       
+| 0.1u         C62       
+| 0.1u         C63       
+| 0.1u         C65       
+| 0.1u         C67       
+| 0.1u         C68       
+| 0.1u         C69       
+| 0.1u         C70       
+| 0.1u         C71       
+| 0.1u         C72       
+| 0.1u         C73       
+| 0.1u         C76       
+| 0.1u         C77       
+| 0.1u         C78       
+| 100          R8        
+| 10k          R1        
+| 10k          R13       
+| 10k          R16       
+| 10V 22u      C12       
+| 10V 22u      C18       
+| 16MHz        TX2       
+| 16V 1u Film  C51       
+| 16V 1u Film  C52       
+| 16V 47u      C11       
+| 16V 47u      C22       
+| 1k           R17       
+| 1M           R4        
+| 1M           R12       
+| 1M           R15       
+| 1n 5%        C50       
+| 200          R6        
+| 200          R7        
+| 22.579MHz    TX1       
+| 22n 5%       C47       
+| 25V 33u      C7        
+| 300k         R2        
+| 330@100MHz   L2        
+| 330@100MHz   L3        
+| 330@100MHz   L4        
+| 33k          R11       
+| 33k          R14       
+| 3k 1%        R10       
+| 47k          R3        
+| 47k          R9        
+| 47k          RP1       
+| 47p          C74       
+| 47p          C75       
+| 4V 220u      C4        
+| 6.3V 10u     C1        
+| 6.3V 10u     C6        
+| 6.3V 10u     C56       
+| 6.3V 22u     C64       
+| 6.3V 22u     C66       
+| 6.3V 470u    C3        
+| 75           R5        
+| 79L05        U8        
+| AD8656       U12       
+| AT93C6       U14       
+| ATTINY13-SS  U3        
+| AVRISP       P2        
+| BAT54S       D1        
+| BAT54S       D3        
+| BRL3225T4R7M L1        
+| CS8416       U15       
+| CY7C1041CV33 U9        
+| DC5V         J1        
+| FDS4935      Q1        
+| HOLE         H1        
+| HOLE         H2        
+| HOLE         H3        
+| HOLE         H4        
+| JTAG         P4        
+| KB           P6        
+| KB_PWR       P5        
+| LCD L        J7        
+| LCD R        J6        
+| LFXP2-8E-TN144 U6        
+| LINE IN      J4        
+| LINE THRU    J5        
+| LM1972       U11       
+| NCP585       U1        
+| NJM2845-DL33 U2        
+| NJM2865-33   U4        
+| PCM1802      U13       
+| PDTC123J     Q2        
+| PWRINV1      P1        
+| PWRINV2      P3        
+| S/PDIF IN    J2        
+| S/PDIF THRU  J3        
+| SC4503       U7        
+| SS2040       D2        
+| TAR5SB50     U5        
+| TC33 10k     VR1       
+| TC33 10k     VR2       
+| TC7WU04      U10       
+#コンポーネント終了
+
+#リスト終了

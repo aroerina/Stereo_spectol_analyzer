@@ -1,0 +1,94 @@
+(pcb C:\プログラム\CAD\KiCad\share\Project\SSA\SSA.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer 表面
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer 裏面
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 1090.5 -1242.5 2057.5 -1757.5)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component TO220
+      (place TO220 1150 -1500 front 0 (PN VAL*))
+    )
+  )
+  (library
+    (image TO220
+      (outline (path signal 12  0 100  200 100))
+      (outline (path signal 12  0 0  200 0))
+      (outline (path signal 12  0 -100  200 -100))
+      (outline (path signal 12  200 -200  800 -200))
+      (outline (path signal 12  800 -200  800 200))
+      (outline (path signal 12  800 200  200 200))
+      (outline (path signal 12  200 200  200 -200))
+      (outline (path signal 12  500 -150  500 200))
+      (outline (path signal 12  500 -150  500 -200))
+      (pin Rect[A]Pad_70x70_mil 1 0 -100)
+      (pin Round[A]Pad_70_mil 2 0 100)
+      (pin Round[A]Pad_70_mil 3 0 0)
+      (pin Rect[A]Pad_350x350_mil 4 650 0)
+    )
+    (padstack Round[A]Pad_70_mil
+      (shape (circle 表面 70))
+      (shape (circle 裏面 70))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_350x350_mil
+      (shape (rect 表面 -175 -175 175 175))
+      (shape (rect 裏面 -175 -175 175 175))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_70x70_mil
+      (shape (rect 表面 -35 -35 35 35))
+      (shape (rect 裏面 -35 -35 35 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle 表面 35))
+      (shape (circle 裏面 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle 表面 35))
+      (shape (circle 裏面 35))
+      (attach off)
+    )
+  )
+  (network
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

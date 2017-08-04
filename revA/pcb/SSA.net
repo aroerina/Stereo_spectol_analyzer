@@ -1,0 +1,1481 @@
+# EESchema Netlist Version 1.1 created  2012/09/21 1:44:52
+(
+ ( /4FD88CE8 SMD2012 C1 6.3V_10u
+  ( 1 GND )
+  ( 2 +1.2V )
+ )
+ ( /4FDC2E9B SMD1608 C2 0.1u
+  ( 1 +5P )
+  ( 2 GND )
+ )
+ ( /4FCE3B59 SMD_EC_PANA_F_D8 C3 6.3V_470u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FEC2A3B SMD_EC_PANA_D_D6.3 C4 4V_220u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FD88CDD SMD1608 C5 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FCE3404 SMD2012 C6 6.3V_10u
+  ( 1 /AVRPWR )
+  ( 2 GND )
+ )
+ ( /4FD552D7/50065958 SMD1608 C7 0.1u
+  ( 1 N-000126 )
+  ( 2 N-000151 )
+ )
+ ( /4FD552D7/5040E8D7 C-FILM-5MM C8 0.022u_Film
+  ( 1 N-000106 )
+  ( 2 N-000148 )
+ )
+ ( /4FD8A0DC SMD1608 C9 0.1u
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /4FD892EF SMD1608 C10 0.1u
+  ( 1 +9V )
+  ( 2 GND )
+ )
+ ( /4FD1ABB3 SMD_EC_PANA_C_D5 C11 16V_47u
+  ( 1 +9V )
+  ( 2 GND )
+ )
+ ( /4FD8897F SMD3225-CP C12 10V_22u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FD888F8 SMD1608 C13 0.1u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FD88B14 SMD1608 C14 0.01u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FE1CDCC SMD1608 C15 0.01u
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4FD1A352 SMD1608 C16 0.1u
+  ( 1 GND )
+  ( 2 N-000018 )
+ )
+ ( /4FD1A357 SMD1608 C17 0.1u
+  ( 1 GND )
+  ( 2 N-000017 )
+ )
+ ( /4FD8898B SMD3225-CP C18 10V_22u
+  ( 1 GND )
+  ( 2 -5VA )
+ )
+ ( /4FD88951 SMD1608 C19 0.1u
+  ( 1 GND )
+  ( 2 -5VA )
+ )
+ ( /4FD88B17 SMD1608 C20 0.01u
+  ( 1 GND )
+  ( 2 -5VA )
+ )
+ ( /4FD05068 SMD1608 C21 0.1u
+  ( 1 GND )
+  ( 2 -8V )
+ )
+ ( /4FD04F48 SMD_EC_PANA_C_D5 C22 16V_47u
+  ( 1 GND )
+  ( 2 -8V )
+ )
+ ( /4FD04E96 SMD1608 C23 0.1u
+  ( 1 /SW )
+  ( 2 N-000010 )
+ )
+ ( /4FD88691 SMD1608 C24 0.1u
+  ( 1 GND )
+  ( 2 +1.2V )
+ )
+ ( /4FD88683 SMD1608 C25 0.1u
+  ( 1 GND )
+  ( 2 +1.2V )
+ )
+ ( /4FD8868B SMD1608 C26 0.1u
+  ( 1 GND )
+  ( 2 +1.2V )
+ )
+ ( /4FD88663 SMD1608 C27 0.1u
+  ( 1 GND )
+  ( 2 +1.2V )
+ )
+ ( /4FD88737 SMD1608 C28 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD88739 SMD1608 C29 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD88738 SMD1608 C30 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD8873A SMD1608 C31 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD88740 SMD1608 C32 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD8873E SMD1608 C33 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/5043076E C-NP-2M C34 2.2u_NP
+  ( 1 N-000149 )
+  ( 2 N-000105 )
+ )
+ ( /4FD8873D SMD1608 C35 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD88752 SMD1608 C36 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD88753 SMD1608 C37 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/4FD88195 SMD1608 C38 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD8814A SMD1608 C39 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD55369 SMD1608 C40 0.1u
+  ( 1 N-000146 )
+  ( 2 N-000161 )
+ )
+ ( /4FD552D7/4FD89229 SMD1608 C41 0.1u
+  ( 1 GND )
+  ( 2 +5P )
+ )
+ ( /4FD552D7/4FD5535D SMD1608 C42 0.1u
+  ( 1 GND )
+  ( 2 N-000159 )
+ )
+ ( /4FD552D7/4FD5535C SMD1608 C43 0.1u
+  ( 1 GND )
+  ( 2 N-000119 )
+ )
+ ( /4FD552D7/4FD55360 SMD1608 C44 0.1u
+  ( 1 N-000135 )
+  ( 2 N-000151 )
+ )
+ ( /4FD552D7/4FD55358 SMD1608 C45 0.1u
+  ( 1 GND )
+  ( 2 N-000162 )
+ )
+ ( /4FD552D7/4FDB6687 SMD1608 C46 0.01u
+  ( 1 GND )
+  ( 2 N-000162 )
+ )
+ ( /4FD552D7/4FD5534E SMD2012 C47 22n_5%
+  ( 1 GND )
+  ( 2 N-000102 )
+ )
+ ( /4FD552D7/4FD55353 SMD1608 C48 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/4FD55352 SMD1608 C49 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/4FD5534F SMD1608 C50 1n_5%
+  ( 1 GND )
+  ( 2 N-000101 )
+ )
+ ( /4FD552D7/5040E8C2 C-FILM-5MM C51 0.022u_Film
+  ( 1 N-000103 )
+  ( 2 N-000125 )
+ )
+ ( /4FD552D7/50430784 C-NP-2M C52 2.2u_NP
+  ( 1 N-000153 )
+  ( 2 N-000150 )
+ )
+ ( /4FD552D7/4FD88213 SMD1608 C53 0.1u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD8302C SMD1608 C54 0.1u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD5532C SMD1608 C55 0.1u
+  ( 1 /Main/VREF1 )
+  ( 2 GND )
+ )
+ ( /4FE9E03F SMD2012 C56 6.3V_10u
+  ( 1 +5P )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD83040 SMD1608 C57 0.1u
+  ( 1 -5VA )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD89D5B SMD1608 C58 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /505B4764 SMD1608 C59 10n
+  ( 1 KB_PWR )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD881E7 SMD1608 C60 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FE99408 SMD1608 C61 0.1u
+  ( 1 +9V )
+  ( 2 GND )
+ )
+ ( /4FE99403 SMD1608 C62 0.1u
+  ( 1 GND )
+  ( 2 -8V )
+ )
+ ( /4FE9DFF5 SMD1608 C63 0.1u
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /4FD552D7/4FE9DF6F SMD2012 C64 6.3V_22u
+  ( 1 /Main/VREF1 )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FE9D504 SMD1608 C65 0.1u
+  ( 1 /Main/VREF2 )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FE9DF81 SMD2012 C66 6.3V_22u
+  ( 1 /Main/VREF2 )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FEAA3F2 SMD1608 C67 0.1u
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FEAA33F SMD1608 C68 0.1u
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4FEABBB1 SMD1608 C69 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FEAE82A SMD1608 C70 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FEAE82C SMD1608 C71 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FEAE98A SMD1608 C72 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FEAE98D SMD1608 C73 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FF297D1 SMD1608 C76 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FF297D3 SMD1608 C77 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FF299C6 SMD1608 C78 0.1u
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4FCF064C SOD-123FL D2 SS2040
+  ( 1 /SW )
+  ( 2 +9V )
+ )
+ ( /4FCF0C5C SOT23 D3 BAT54S
+  ( 1 -8V )
+  ( 2 GND )
+  ( 3 N-000010 )
+ )
+ ( /4FE07963 HOLE_M3 H1 HOLE
+  ( 1 GND )
+ )
+ ( /4FE07967 HOLE_M3 H2 HOLE
+  ( 1 GND )
+ )
+ ( /4FE07968 HOLE_M3 H3 HOLE
+  ( 1 GND )
+ )
+ ( /4FE0796A HOLE_M3 H4 HOLE
+  ( 1 GND )
+ )
+ ( /4FCE3321 DC_JACK J1 DC5V
+  ( GND GND )
+  ( VIN +5P )
+ )
+ ( /4FD552D7/4FD5536F AKI-RCA J2 S/PDIF_IN
+  ( C N-000146 )
+  ( S GND )
+ )
+ ( /4FD552D7/4FD5536E AKI-RCA J3 S/PDIF_THRU
+  ( C N-000135 )
+  ( S GND )
+ )
+ ( /4FD552D7/4FE0ABDF AKI-ST-005 J4 LINE_IN
+  ( GND GND )
+  ( L N-000153 )
+  ( R N-000149 )
+ )
+ ( /4FD552D7/4FE0ABEB AKI-ST-005 J5 LINE_THRU
+  ( GND GND )
+  ( L N-000153 )
+  ( R N-000149 )
+ )
+ ( /4FD552D7/4FD55323 FFC36 J6 LCD_R
+  ( 1 GND )
+  ( 2 /Main/LCDR_CLK )
+  ( 3 GND )
+  ( 4 /Main/LCDR_HS )
+  ( 5 /Main/LCDR_VS )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 /Main/LCDR_B5 )
+  ( 9 /Main/LCDR_B4 )
+  ( 10 /Main/LCDR_B3 )
+  ( 11 /Main/LCDR_B2 )
+  ( 12 /Main/LCDR_B1 )
+  ( 13 GND )
+  ( 14 GND )
+  ( 15 /Main/LCDR_G5 )
+  ( 16 /Main/LCDR_G4 )
+  ( 17 /Main/LCDR_G3 )
+  ( 18 /Main/LCDR_G2 )
+  ( 19 /Main/LCDR_G1 )
+  ( 20 GND )
+  ( 21 +5V )
+  ( 22 /Main/LCDR_R5 )
+  ( 23 /Main/LCDR_R4 )
+  ( 24 /Main/LCDR_R3 )
+  ( 25 /Main/LCDR_R2 )
+  ( 26 /Main/LCDR_R1 )
+  ( 27 GND )
+  ( 28 +5V )
+  ( 29 N-000134 )
+  ( 30 GND )
+  ( 31 +5V )
+  ( 32 GND )
+  ( 33 -8V )
+  ( 34 GND )
+  ( 35 +9V )
+  ( 36 GND )
+ )
+ ( /4FD552D7/4FD9F006 FFC36 J7 LCD_L
+  ( 1 GND )
+  ( 2 +9V )
+  ( 3 GND )
+  ( 4 -8V )
+  ( 5 GND )
+  ( 6 +5V )
+  ( 7 GND )
+  ( 8 N-000145 )
+  ( 9 +5V )
+  ( 10 GND )
+  ( 11 /Main/LCDL_R1 )
+  ( 12 /Main/LCDL_R2 )
+  ( 13 /Main/LCDL_R3 )
+  ( 14 /Main/LCDL_R4 )
+  ( 15 /Main/LCDL_R5 )
+  ( 16 +5V )
+  ( 17 GND )
+  ( 18 /Main/LCDL_G1 )
+  ( 19 /Main/LCDL_G2 )
+  ( 20 /Main/LCDL_G3 )
+  ( 21 /Main/LCDL_G4 )
+  ( 22 /Main/LCDL_G5 )
+  ( 23 GND )
+  ( 24 GND )
+  ( 25 /Main/LCDL_B1 )
+  ( 26 /Main/LCDL_B2 )
+  ( 27 /Main/LCDL_B3 )
+  ( 28 /Main/LCDL_B4 )
+  ( 29 /Main/LCDL_B5 )
+  ( 30 GND )
+  ( 31 GND )
+  ( 32 /Main/LCDL_VS )
+  ( 33 /Main/LCDL_HS )
+  ( 34 GND )
+  ( 35 /Main/LCDL_CLK )
+  ( 36 GND )
+ )
+ ( /4FCF0587 SMD3225 L1 BRL3225T4R7M
+  ( 1 +5V )
+  ( 2 /SW )
+ )
+ ( /4FD1A30E SMD1608 L2 330@100MHz
+  ( 1 N-000017 )
+  ( 2 +3.3V )
+ )
+ ( /4FD1A2A0 SMD1608 L3 330@100MHz
+  ( 1 N-000018 )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/4FD55357 SMD1608 L4 330@100MHz
+  ( 1 N-000162 )
+  ( 2 +3.3V )
+ )
+ ( /4FE19763 PIN_ARRAY_2X1 P1 PWRINV1
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FCEB773 pin_array_3x2 P2 AVRISP
+  ( 1 AT13_PB1 )
+  ( 2 /AVRPWR )
+  ( 3 /AVR_SCK )
+  ( 4 AT13_PB0 )
+  ( 5 /AVR_RESET )
+  ( 6 GND )
+ )
+ ( /4FE1976A PIN_ARRAY_2X1 P3 PWRINV2
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FD5EDF7 PIN_ARRAY-6X1 P4 JTAG
+  ( 1 GND )
+  ( 2 /TDO )
+  ( 3 /TMS )
+  ( 4 /TDI )
+  ( 5 /TCK )
+  ( 6 +3.3V )
+ )
+ ( /4FD552D7/500BA568 pin_array_4x2 P5 CONN_4X2
+  ( 1 GND )
+  ( 2 /Main/TAC_KEY5 )
+  ( 3 /Main/TAC_KEY4 )
+  ( 4 /Main/TAC_KEY3 )
+  ( 5 /Main/TAC_KEY2 )
+  ( 6 /Main/TAC_KEY1 )
+  ( 7 KB_PWR )
+  ( 8 /Main/TAC_KEY0 )
+ )
+ ( /4FDB2511 SO8W40 Q1 FDS4935
+  ( 1 +5P )
+  ( 2 N-000007 )
+  ( 3 +5P )
+  ( 4 N-000007 )
+  ( 5 +5V )
+  ( 6 +5V )
+  ( 7 +5V )
+  ( 8 +5V )
+ )
+ ( /4FDC18A1 SOT23 Q2 PDTC123J
+  ( 1 N-000002 )
+  ( 2 GND )
+  ( 3 N-000007 )
+ )
+ ( /4FDB3F91 SMD1608 R1 10k
+  ( 1 N-000007 )
+  ( 2 +5P )
+ )
+ ( /4FD04DEC SMD1608 R2 300k
+  ( 1 +9V )
+  ( 2 /FB )
+ )
+ ( /4FD04DF4 SMD1608 R3 47k
+  ( 1 /FB )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD55367 SMD1608 R4 1M
+  ( 1 N-000161 )
+  ( 2 N-000160 )
+ )
+ ( /4FD552D7/4FD5536A SMD1608 R5 75
+  ( 1 N-000146 )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD55364 SMD1608 R6 470
+  ( 1 N-000147 )
+  ( 2 N-000151 )
+ )
+ ( /4FD552D7/4FD55362 SMD1608 R8 100
+  ( 1 N-000151 )
+  ( 2 GND )
+ )
+ ( /4FD552D7/4FD85763 SMD1608 R9 47k
+  ( 1 /Main/DAI_TX )
+  ( 2 +3.3V )
+ )
+ ( /4FD552D7/4FD5534C SMD1608 R10 3k_1%
+  ( 1 N-000101 )
+  ( 2 N-000102 )
+ )
+ ( /4FD552D7/4FD55332 SMD1608 R11 47k
+  ( 1 N-000123 )
+  ( 2 N-000128 )
+ )
+ ( /4FD552D7/4FD55333 SMD1608 R12 1M
+  ( 1 N-000148 )
+  ( 2 /Main/VREF1 )
+ )
+ ( /4FD552D7/4FD55334 SMD1608 R13 10k
+  ( 1 N-000123 )
+  ( 2 /Main/VREF1 )
+ )
+ ( /4FD552D7/4FD55331 SMD1608 R14 47k
+  ( 1 N-000127 )
+  ( 2 N-000122 )
+ )
+ ( /4FD552D7/4FD5532F SMD1608 R15 1M
+  ( 1 N-000125 )
+  ( 2 /Main/VREF1 )
+ )
+ ( /4FD552D7/4FD55330 SMD1608 R16 10k
+  ( 1 N-000127 )
+  ( 2 /Main/VREF1 )
+ )
+ ( /4FD552D7/4FE9D550 SMD1608 R17 1k
+  ( 1 +5VA )
+  ( 2 /Main/VREF2 )
+ )
+ ( /4FD552D7/4FD83840 PR8-3216 RP1 47k
+  ( 1 /Main/DAI_AUDIO )
+  ( 2 /Main/DAI_RCBL )
+  ( 3 /Main/DAI_U )
+  ( 4 /Main/DAI_C )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 +3.3V )
+  ( 8 GND )
+ )
+ ( /4FD552D7/4FD55326 OSC TX1 22.579MHz
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 CLK_A )
+  ( 4 +3.3V )
+ )
+ ( /4FCEEB74 SOT23-5 U1 NCP585
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 +3.3V )
+  ( 4 +3.3V )
+  ( 5 +1.2V )
+ )
+ ( /4FCECF90 MyIC-TO252 U2 NJM2845-DL33
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 +3.3V )
+ )
+ ( /4FDAF9FE SO8W40 U3 ATTINY13-SS
+  ( 1 /AVR_RESET )
+  ( 2 KB_PWR )
+  ( 3 N-000002 )
+  ( 4 GND )
+  ( 5 AT13_PB0 )
+  ( 6 AT13_PB1 )
+  ( 7 /AVR_SCK )
+  ( 8 /AVRPWR )
+ )
+ ( /4FDC2CED SOT23-5 U4 NJM2865-33
+  ( 1 +5P )
+  ( 2 GND )
+  ( 4 /AVRPWR )
+  ( 5 +5P )
+ )
+ ( /4FE1CD17 SOT23-5 U5 TAR5SB50
+  ( 1 +9V )
+  ( 2 GND )
+  ( 3 +9V )
+  ( 4 N-000001 )
+  ( 5 +5VA )
+ )
+ ( /4FD19CD6 TQFP144 U6 LFXP2-8E-TN144
+  ( 1 /Main/SRAM_IO15 )
+  ( 2 /Main/SRAM_OE )
+  ( 3 GND )
+  ( 4 +3.3V )
+  ( 5 /Main/SRAM_A15 )
+  ( 6 /Main/SRAM_A16 )
+  ( 7 /Main/SRAM_A17 )
+  ( 8 /Main/LCDL_CLK )
+  ( 9 /Main/LCDL_HS )
+  ( 10 /Main/LCDL_VS )
+  ( 11 /Main/LCDL_B5 )
+  ( 12 GND )
+  ( 13 /Main/LCDL_B4 )
+  ( 14 +3.3V )
+  ( 15 /Main/LCDL_B3 )
+  ( 16 /Main/LCDL_B2 )
+  ( 17 /Main/LCDL_B1 )
+  ( 18 /Main/LCDL_G5 )
+  ( 19 /Main/LCDL_G4 )
+  ( 20 /Main/LCDL_G3 )
+  ( 21 /Main/LCDL_G2 )
+  ( 22 /Main/LCDL_G1 )
+  ( 23 +3.3V )
+  ( 24 +1.2V )
+  ( 25 +3.3V )
+  ( 26 +3.3V )
+  ( 27 /Main/LCDL_R5 )
+  ( 28 /Main/LCDL_R4 )
+  ( 29 /Main/LCDL_R3 )
+  ( 30 /Main/LCDL_R2 )
+  ( 31 /Main/LCDL_R1 )
+  ( 32 /Main/SPI_MISO )
+  ( 33 +3.3V )
+  ( 34 GND )
+  ( 35 /Main/SPI_MOSI )
+  ( 36 /Main/SPI_SCLK )
+  ( 37 /Main/SPI_CS )
+  ( 38 /Main/TAC_KEY5 )
+  ( 39 /Main/TAC_KEY3 )
+  ( 40 /Main/TAC_KEY4 )
+  ( 41 GND )
+  ( 42 +3.3V )
+  ( 43 /Main/TAC_KEY1 )
+  ( 44 /Main/TAC_KEY0 )
+  ( 45 /Main/TAC_KEY2 )
+  ( 46 ? )
+  ( 47 /Main/LCDR_R1 )
+  ( 48 /Main/LCDR_R2 )
+  ( 49 +3.3V )
+  ( 50 /Main/LCDR_R3 )
+  ( 51 GND )
+  ( 52 /Main/LCDR_R4 )
+  ( 53 /Main/LCDR_R5 )
+  ( 54 /Main/LCDR_G1 )
+  ( 55 /Main/LCDR_G2 )
+  ( 56 /Main/LCDR_G3 )
+  ( 57 /Main/LCDR_G4 )
+  ( 58 /Main/LCDR_G5 )
+  ( 59 +1.2V )
+  ( 60 +3.3V )
+  ( 61 /Main/LCDR_B1 )
+  ( 62 /Main/LCDR_B2 )
+  ( 63 +3.3V )
+  ( 64 GND )
+  ( 65 /Main/LCDR_B3 )
+  ( 66 /Main/LCDR_B4 )
+  ( 67 N-000018 )
+  ( 68 GND )
+  ( 69 /Main/LCDR_B5 )
+  ( 70 /Main/LCDR_VS )
+  ( 71 /Main/LCDR_HS )
+  ( 72 /Main/LCDR_CLK )
+  ( 73 /Main/ADC_SCKI )
+  ( 74 /Main/ADC_DOUT )
+  ( 75 GND )
+  ( 76 +3.3V )
+  ( 77 /Main/ADC_BCK )
+  ( 78 /Main/ADC_PDWN )
+  ( 79 /TMS )
+  ( 80 /TDI )
+  ( 81 /TCK )
+  ( 82 /TDO )
+  ( 83 +3.3V )
+  ( 84 +1.2V )
+  ( 85 +3.3V )
+  ( 86 GND )
+  ( 87 /Main/ADC_LRCK )
+  ( 88 EVOL_DATAIN )
+  ( 89 EVOL_LOAD )
+  ( 90 EVOL_CLK )
+  ( 91 /Main/DAI_RERR )
+  ( 92 /Main/DAI_nRST )
+  ( 93 AT13_PB1 )
+  ( 94 AT13_PB0 )
+  ( 95 +3.3V )
+  ( 96 /Main/DAI_OLRCK )
+  ( 97 GND )
+  ( 98 /Main/DAI_OSCLK )
+  ( 99 /Main/DAI_SDOUT )
+  ( 100 /Main/DAI_96KHZ )
+  ( 101 /Main/SRAM_A10 )
+  ( 102 /Main/SRAM_A11 )
+  ( 103 /Main/SRAM_A12 )
+  ( 104 /Main/SRAM_A13 )
+  ( 105 +3.3V )
+  ( 106 GND )
+  ( 107 /Main/SRAM_A14 )
+  ( 108 /Main/SRAM_IO8 )
+  ( 109 /Main/SRAM_IO9 )
+  ( 110 /Main/SRAM_A9 )
+  ( 111 GND )
+  ( 112 +3.3V )
+  ( 113 /Main/SRAM_A8 )
+  ( 114 /Main/SRAM_A7 )
+  ( 115 /Main/SRAM_A6 )
+  ( 116 /Main/SRAM_A5 )
+  ( 117 +3.3V )
+  ( 118 +1.2V )
+  ( 119 /Main/SRAM_WE )
+  ( 120 /Main/SRAM_IO7 )
+  ( 121 /Main/SRAM_IO6 )
+  ( 122 /Main/SRAM_IO5 )
+  ( 123 /Main/SRAM_IO4 )
+  ( 124 /Main/SRAM_IO10 )
+  ( 125 /Main/SRAM_IO11 )
+  ( 126 GND )
+  ( 127 /Main/SRAM_IO12 )
+  ( 128 +3.3V )
+  ( 129 /Main/SRAM_IO13 )
+  ( 130 /Main/SRAM_IO14 )
+  ( 131 /Main/SRAM_IO3 )
+  ( 132 /Main/SRAM_IO2 )
+  ( 133 /Main/SRAM_IO1 )
+  ( 134 /Main/SRAM_IO0 )
+  ( 135 GND )
+  ( 136 +3.3V )
+  ( 137 /Main/SRAM_A4 )
+  ( 138 /Main/SRAM_A3 )
+  ( 139 GND )
+  ( 140 N-000017 )
+  ( 141 /Main/SRAM_A2 )
+  ( 142 /Main/SRAM_A1 )
+  ( 143 /Main/SRAM_A0 )
+  ( 144 CLK_A )
+ )
+ ( /4FCF05E7 SOT23-5 U7 SC4503
+  ( 1 /SW )
+  ( 2 GND )
+  ( 3 /FB )
+  ( 4 +5V )
+  ( 5 +5V )
+ )
+ ( /4FDCBD01 SOT-89-VREG U8 79L05
+  ( GND GND )
+  ( VI -8V )
+  ( VO -5VA )
+ )
+ ( /4FD552D7/4FD58F5C TSOP44-II U9 CY7C1041CV33
+  ( 1 /Main/SRAM_A0 )
+  ( 2 /Main/SRAM_A1 )
+  ( 3 /Main/SRAM_A2 )
+  ( 4 /Main/SRAM_A3 )
+  ( 5 /Main/SRAM_A4 )
+  ( 6 GND )
+  ( 7 /Main/SRAM_IO0 )
+  ( 8 /Main/SRAM_IO1 )
+  ( 9 /Main/SRAM_IO2 )
+  ( 10 /Main/SRAM_IO3 )
+  ( 11 +3.3V )
+  ( 12 GND )
+  ( 13 /Main/SRAM_IO4 )
+  ( 14 /Main/SRAM_IO5 )
+  ( 15 /Main/SRAM_IO6 )
+  ( 16 /Main/SRAM_IO7 )
+  ( 17 /Main/SRAM_WE )
+  ( 18 /Main/SRAM_A5 )
+  ( 19 /Main/SRAM_A6 )
+  ( 20 /Main/SRAM_A7 )
+  ( 21 /Main/SRAM_A8 )
+  ( 22 /Main/SRAM_A9 )
+  ( 23 /Main/SRAM_A10 )
+  ( 24 /Main/SRAM_A11 )
+  ( 25 /Main/SRAM_A12 )
+  ( 26 /Main/SRAM_A13 )
+  ( 27 /Main/SRAM_A14 )
+  ( 28 ? )
+  ( 29 /Main/SRAM_IO8 )
+  ( 30 /Main/SRAM_IO9 )
+  ( 31 /Main/SRAM_IO10 )
+  ( 32 /Main/SRAM_IO11 )
+  ( 33 +3.3V )
+  ( 34 GND )
+  ( 35 /Main/SRAM_IO12 )
+  ( 36 /Main/SRAM_IO13 )
+  ( 37 /Main/SRAM_IO14 )
+  ( 38 /Main/SRAM_IO15 )
+  ( 39 GND )
+  ( 40 GND )
+  ( 41 /Main/SRAM_OE )
+  ( 42 /Main/SRAM_A15 )
+  ( 43 /Main/SRAM_A16 )
+  ( 44 /Main/SRAM_A17 )
+ )
+ ( /4FD552D7/4FD5536D SOP8W31 U10 TC7WU04
+  ( 1 N-000160 )
+  ( 2 N-000160 )
+  ( 3 N-000160 )
+  ( 4 GND )
+  ( 5 N-000147 )
+  ( 6 N-000161 )
+  ( 7 N-000147 )
+  ( 8 +5P )
+ )
+ ( /4FD552D7/4FD55340 MyIC-SO-20DW U11 LM1972
+  ( 1 GND )
+  ( 2 N-000106 )
+  ( 3 GND )
+  ( 4 N-000105 )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 -5VA )
+  ( 8 GND )
+  ( 9 EVOL_CLK )
+  ( 10 EVOL_LOAD )
+  ( 11 EVOL_DATAIN )
+  ( 12 ? )
+  ( 13 +5VA )
+  ( 14 GND )
+  ( 15 +5VA )
+  ( 16 GND )
+  ( 17 N-000103 )
+  ( 18 -5VA )
+  ( 19 GND )
+  ( 20 N-000150 )
+ )
+ ( /4FD552D7/4FD5533A MY_MSOP_8 U12 AD8656
+  ( 1 N-000128 )
+  ( 2 N-000123 )
+  ( 3 N-000148 )
+  ( 4 GND )
+  ( 5 N-000125 )
+  ( 6 N-000127 )
+  ( 7 N-000122 )
+  ( 8 +5VA )
+ )
+ ( /4FD552D7/4FD55338 SSOP20W56 U13 PCM1802
+  ( 1 N-000128 )
+  ( 2 N-000122 )
+  ( 3 /Main/VREF1 )
+  ( 4 /Main/VREF2 )
+  ( 5 +5VA )
+  ( 6 GND )
+  ( 7 /Main/ADC_PDWN )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 /Main/ADC_LRCK )
+  ( 11 /Main/ADC_BCK )
+  ( 12 /Main/ADC_DOUT )
+  ( 13 GND )
+  ( 14 +3.3V )
+  ( 15 /Main/ADC_SCKI )
+  ( 16 GND )
+  ( 17 GND )
+  ( 18 GND )
+  ( 19 GND )
+  ( 20 +3.3V )
+ )
+ ( /4FD552D7/4FD5D83F SO8W40 U14 AT93C6
+  ( 1 /Main/SPI_CS )
+  ( 2 /Main/SPI_SCLK )
+  ( 3 /Main/SPI_MOSI )
+  ( 4 /Main/SPI_MISO )
+  ( 5 GND )
+  ( 6 +3.3V )
+  ( 8 +3.3V )
+ )
+ ( /4FD552D7/4FD5535F QFN28-DRILL U15 CS8416
+  ( 1 N-000126 )
+  ( 2 N-000119 )
+  ( 3 N-000162 )
+  ( 4 GND )
+  ( 5 N-000101 )
+  ( 6 /Main/DAI_nRST )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 +3.3V )
+  ( 10 +3.3V )
+  ( 11 /Main/DAI_RERR )
+  ( 12 /Main/DAI_AUDIO )
+  ( 13 /Main/DAI_96KHZ )
+  ( 14 /Main/DAI_RCBL )
+  ( 15 /Main/DAI_U )
+  ( 16 /Main/DAI_C )
+  ( 17 /Main/DAI_TX )
+  ( 18 +3.3V )
+  ( 19 GND )
+  ( 20 +3.3V )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 /Main/DAI_SDOUT )
+  ( 24 /Main/DAI_OSCLK )
+  ( 25 /Main/DAI_OLRCK )
+  ( 26 N-000159 )
+  ( 27 N-000159 )
+  ( 28 N-000159 )
+  ( TP GND )
+ )
+ ( /4FD552D7/4FD583F4 TC33 VR1 TC33_10k
+  ( 1 +5V )
+  ( 2 N-000134 )
+  ( 3 GND )
+ )
+ ( /4FD552D7/4FD5863A TC33 VR2 TC33_10k
+  ( 1 +5V )
+  ( 2 N-000145 )
+  ( 3 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ CP*
+ SM*
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ CP*
+ SM*
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component C51
+ SM*
+ C?
+ C1-1
+$endlist
+$component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component C55
+ SM*
+ C?
+ C1-1
+$endlist
+$component C56
+ SM*
+ C?
+ C1-1
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C58
+ SM*
+ C?
+ C1-1
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component C70
+ SM*
+ C?
+ C1-1
+$endlist
+$component C71
+ SM*
+ C?
+ C1-1
+$endlist
+$component C72
+ SM*
+ C?
+ C1-1
+$endlist
+$component C73
+ SM*
+ C?
+ C1-1
+$endlist
+$component C76
+ SM*
+ C?
+ C1-1
+$endlist
+$component C77
+ SM*
+ C?
+ C1-1
+$endlist
+$component C78
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ SOT-23
+$endlist
+$component H1
+ HOLE_M3
+$endlist
+$component H2
+ HOLE_M3
+$endlist
+$component H3
+ HOLE_M3
+$endlist
+$component H4
+ HOLE_M3
+$endlist
+$component J4
+ AKI-ST-005
+$endlist
+$component J5
+ AKI-ST-005
+$endlist
+$component R1
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R2
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R3
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R4
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R5
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R6
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R8
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R9
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R10
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R11
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R12
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R13
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R14
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R15
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R16
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component R17
+ R?
+ R?-*
+ SMD2012
+ SMD1608
+ SMD3216
+ SMD1005
+$endlist
+$component U4
+ SOT23-5
+$endlist
+$component U5
+ SOT23-5
+$endlist
+$component U6
+ TQFP144
+$endlist
+$component U13
+ SSOP20
+$endlist
+$component VR1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component VR2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

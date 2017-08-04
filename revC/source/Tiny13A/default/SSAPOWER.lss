@@ -1,0 +1,192 @@
+
+SSAPOWER.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000092  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .stab         000006b4  00000000  00000000  000000e8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  2 .stabstr      00000085  00000000  00000000  0000079c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_aranges 00000020  00000000  00000000  00000821  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_pubnames 0000001b  00000000  00000000  00000841  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000219  00000000  00000000  0000085c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000013d  00000000  00000000  00000a75  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000001f7  00000000  00000000  00000bb2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000020  00000000  00000000  00000dac  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000011c  00000000  00000000  00000dcc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000145  00000000  00000000  00000ee8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_pubtypes 00000038  00000000  00000000  0000102d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	09 c0       	rjmp	.+18     	; 0x14 <__ctors_end>
+   2:	0e c0       	rjmp	.+28     	; 0x20 <__bad_interrupt>
+   4:	0d c0       	rjmp	.+26     	; 0x20 <__bad_interrupt>
+   6:	0c c0       	rjmp	.+24     	; 0x20 <__bad_interrupt>
+   8:	0b c0       	rjmp	.+22     	; 0x20 <__bad_interrupt>
+   a:	0a c0       	rjmp	.+20     	; 0x20 <__bad_interrupt>
+   c:	09 c0       	rjmp	.+18     	; 0x20 <__bad_interrupt>
+   e:	08 c0       	rjmp	.+16     	; 0x20 <__bad_interrupt>
+  10:	07 c0       	rjmp	.+14     	; 0x20 <__bad_interrupt>
+  12:	06 c0       	rjmp	.+12     	; 0x20 <__bad_interrupt>
+
+00000014 <__ctors_end>:
+  14:	11 24       	eor	r1, r1
+  16:	1f be       	out	0x3f, r1	; 63
+  18:	cf e9       	ldi	r28, 0x9F	; 159
+  1a:	cd bf       	out	0x3d, r28	; 61
+  1c:	02 d0       	rcall	.+4      	; 0x22 <main>
+  1e:	37 c0       	rjmp	.+110    	; 0x8e <_exit>
+
+00000020 <__bad_interrupt>:
+  20:	ef cf       	rjmp	.-34     	; 0x0 <__vectors>
+
+00000022 <main>:
+#include <util/delay.h>
+#include <bit.h>
+#define TACT_MASK 0x08
+
+int main(){
+	DDRB	= 0x12;
+  22:	82 e1       	ldi	r24, 0x12	; 18
+  24:	87 bb       	out	0x17, r24	; 23
+	PORTB	= 0x08;	//KB Pullup
+  26:	88 e0       	ldi	r24, 0x08	; 8
+  28:	88 bb       	out	0x18, r24	; 24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  2a:	8f eb       	ldi	r24, 0xBF	; 191
+  2c:	94 ed       	ldi	r25, 0xD4	; 212
+  2e:	a1 e0       	ldi	r26, 0x01	; 1
+  30:	81 50       	subi	r24, 0x01	; 1
+  32:	90 40       	sbci	r25, 0x00	; 0
+  34:	a0 40       	sbci	r26, 0x00	; 0
+  36:	e1 f7       	brne	.-8      	; 0x30 <main+0xe>
+  38:	00 c0       	rjmp	.+0      	; 0x3a <__CCP__+0x6>
+  3a:	00 00       	nop
+	
+	byte after_tac,before_tac;
+	byte push_count=0;
+	bool push_done=FALSE;
+	
+	bool power = FALSE;
+  3c:	80 e0       	ldi	r24, 0x00	; 0
+		if(push_done){
+			push_done=FALSE;
+			if(power){		// ON  -> OFF
+				sbi(PORTB,PB1);
+				while(!( PINB & 0x01 ));	//FPGA‚Ì‰ž“š‚ð‘Ò‚Â
+				PORTB = 0x08;
+  3e:	38 e0       	ldi	r19, 0x08	; 8
+	bool push_done=FALSE;
+	
+	bool power = FALSE;
+	_delay_ms(500);
+	for(;;){
+		before_tac = PINB & TACT_MASK;
+  40:	26 b3       	in	r18, 0x16	; 22
+  42:	ab e2       	ldi	r26, 0x2B	; 43
+  44:	b1 e0       	ldi	r27, 0x01	; 1
+  46:	11 97       	sbiw	r26, 0x01	; 1
+  48:	f1 f7       	brne	.-4      	; 0x46 <__SREG__+0x7>
+  4a:	00 c0       	rjmp	.+0      	; 0x4c <__SREG__+0xd>
+  4c:	00 00       	nop
+		_delay_ms(1);
+		
+		after_tac = PINB & TACT_MASK;
+  4e:	96 b3       	in	r25, 0x16	; 22
+	bool push_done=FALSE;
+	
+	bool power = FALSE;
+	_delay_ms(500);
+	for(;;){
+		before_tac = PINB & TACT_MASK;
+  50:	28 70       	andi	r18, 0x08	; 8
+		_delay_ms(1);
+		
+		after_tac = PINB & TACT_MASK;
+  52:	98 70       	andi	r25, 0x08	; 8
+
+		if(before_tac > after_tac){
+  54:	92 17       	cp	r25, r18
+  56:	58 f0       	brcs	.+22     	; 0x6e <__SREG__+0x2f>
+  58:	f3 cf       	rjmp	.-26     	; 0x40 <__SREG__+0x1>
+  5a:	eb e2       	ldi	r30, 0x2B	; 43
+  5c:	f1 e0       	ldi	r31, 0x01	; 1
+  5e:	31 97       	sbiw	r30, 0x01	; 1
+  60:	f1 f7       	brne	.-4      	; 0x5e <__SREG__+0x1f>
+  62:	00 c0       	rjmp	.+0      	; 0x64 <__SREG__+0x25>
+  64:	00 00       	nop
+			push_count=0;
+			while((PINB & TACT_MASK)==0){
+				_delay_ms(1);
+				push_count++;
+  66:	9f 5f       	subi	r25, 0xFF	; 255
+				if(push_count>16){
+  68:	91 31       	cpi	r25, 0x11	; 17
+  6a:	11 f4       	brne	.+4      	; 0x70 <__SREG__+0x31>
+  6c:	0d c0       	rjmp	.+26     	; 0x88 <__SREG__+0x49>
+		before_tac = PINB & TACT_MASK;
+		_delay_ms(1);
+		
+		after_tac = PINB & TACT_MASK;
+
+		if(before_tac > after_tac){
+  6e:	90 e0       	ldi	r25, 0x00	; 0
+			push_count=0;
+			while((PINB & TACT_MASK)==0){
+  70:	b3 9b       	sbis	0x16, 3	; 22
+  72:	f3 cf       	rjmp	.-26     	; 0x5a <__SREG__+0x1b>
+  74:	e5 cf       	rjmp	.-54     	; 0x40 <__SREG__+0x1>
+		}
+
+		if(push_done){
+			push_done=FALSE;
+			if(power){		// ON  -> OFF
+				sbi(PORTB,PB1);
+  76:	c1 9a       	sbi	0x18, 1	; 24
+				while(!( PINB & 0x01 ));	//FPGA‚Ì‰ž“š‚ð‘Ò‚Â
+  78:	b0 9b       	sbis	0x16, 0	; 22
+  7a:	fe cf       	rjmp	.-4      	; 0x78 <__SREG__+0x39>
+				PORTB = 0x08;
+  7c:	38 bb       	out	0x18, r19	; 24
+				power = FALSE;
+  7e:	80 e0       	ldi	r24, 0x00	; 0
+  80:	df cf       	rjmp	.-66     	; 0x40 <__SREG__+0x1>
+			} else {		// OFF ->  ON
+				sbi(PORTB,PB4);
+  82:	c4 9a       	sbi	0x18, 4	; 24
+				power = TRUE;
+  84:	81 e0       	ldi	r24, 0x01	; 1
+  86:	dc cf       	rjmp	.-72     	; 0x40 <__SREG__+0x1>
+			}
+		}
+
+		if(push_done){
+			push_done=FALSE;
+			if(power){		// ON  -> OFF
+  88:	88 23       	and	r24, r24
+  8a:	a9 f7       	brne	.-22     	; 0x76 <__SREG__+0x37>
+  8c:	fa cf       	rjmp	.-12     	; 0x82 <__SREG__+0x43>
+
+0000008e <_exit>:
+  8e:	f8 94       	cli
+
+00000090 <__stop_program>:
+  90:	ff cf       	rjmp	.-2      	; 0x90 <__stop_program>
